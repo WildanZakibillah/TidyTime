@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tugas"
+        android:icon="@drawable/ic_tugas"
+        android:title="Task"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/kalender"
+        android:icon="@drawable/ic_calendar"
+        android:title="Calendar"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_setting"
+        android:title="Setting"
+        android:showAsAction="ifRoom" />
+</menu>

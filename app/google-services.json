@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "715904908189",
+    "project_id": "tidytimeapp",
+    "storage_bucket": "tidytimeapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715904908189:android:31bf8f303e94f020284d74",
+        "android_client_info": {
+          "package_name": "com.example.tidytime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCymy5EJ_e6WgI_u16sO9qdU_Kwd1Vg-FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

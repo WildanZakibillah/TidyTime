@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:background="#F5F5F5"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:padding="16dp">
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Help and Support"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingBottom="12dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#E0E0E0"
+                android:layout_marginVertical="8dp" />
+
+            <!-- General Help Introduction -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to the Help and Support section! Here you will find helpful tips and instructions for using TidyTime efficiently."
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- How to Add a Task -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Add a Task"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Open the TidyTime app and go to the main screen.\n2. Tap the '+' button at the bottom-right corner of the screen.\n3. Enter the task name, select a deadline, and choose any category if desired.\n4. Tap 'Save' to add the task to your list."
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- How to Set Reminders -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Set a Reminder"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. When adding or editing a task, select the 'Reminder' option.\n2. Set the date and time for the reminder.\n3. Tap 'Save' to activate the reminder, and you'll be notified when it's time."
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- How to Track Task Progress -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Track Task Progress"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Go to the 'Tasks' tab on the main screen.\n2. Find the task you want to track and tap on it.\n3. Mark the task as 'In Progress' or 'Completed' by tapping on the corresponding buttons."
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- FAQ Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequently Asked Questions (FAQ)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q: How do I delete a task?\nA: To delete a task, swipe left on the task you want to remove, then tap the 'Delete' button that appears.\n\nQ: Can I sync tasks across multiple devices?\nA: Yes, you can sync your tasks across devices by signing in with the same account."
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Contact Support Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Need More Help?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If you have any more questions or need assistance, feel free to reach out to our support team. We're here to help!"
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Support: support@tidytime.com"
+                android:textSize="14sp"
+                android:textColor="#0066CC"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

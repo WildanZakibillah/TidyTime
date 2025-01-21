@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E0E0E0"
+            android:layout_marginVertical="8dp" />
+
+        <!-- Introduction Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TidyTime is committed to protecting your privacy. We are transparent about the data we collect and how it is used to improve your user experience."
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Detailed Privacy Explanation -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TidyTime does not share your personal data with third parties. Your data is securely stored using encryption technologies to ensure privacy. We only collect necessary data that helps us enhance the app’s functionality and your experience."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In addition, TidyTime may collect non-personally identifiable data, such as usage statistics, to improve app performance and fix bugs. This information is completely anonymous and cannot be linked to any specific user."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can always review, update, or delete your data through the settings in the app. We value transparency and your control over your information. If you have any concerns, please feel free to contact our support team."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By using TidyTime, you consent to our privacy policy. We reserve the right to modify this policy as necessary, and updates will be reflected here. Please review this policy regularly."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Additional Section on Data Storage and Usage -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TidyTime stores your data on secure servers located in trusted data centers. We ensure that all personal and non-personal data is encrypted both in transit and at rest, preventing unauthorized access."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We use your data only to provide you with a more personalized experience within the app, such as offering recommendations and improving the overall performance of the service. For example, TidyTime may analyze your usage patterns to optimize certain features and functionalities."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- User Rights Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="As a user, you have several important rights over your data. These include the right to access, correct, or delete your data. You also have the right to opt-out of certain data collection practices, such as targeted advertising."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you wish to exercise any of these rights or have concerns regarding the data we collect, please contact our support team. We are happy to assist you in making sure your information is managed according to your preferences."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Section on Cookies and Tracking -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TidyTime may also use cookies and similar technologies to track user activity within the app. These technologies help us understand user behavior and enable us to improve the app’s functionality. You can adjust your settings to disable cookies, though this may impact some features of the app."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Third-Party Services Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We may use third-party services, such as analytics tools, to gather information about how you use the app. These third parties may collect data like usage statistics, device type, and other technical details. However, these services are bound by strict privacy agreements and are not allowed to share or use your data for any purpose other than improving TidyTime."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Closing Remark Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We take your privacy seriously and are committed to safeguarding your personal information. We recommend that you regularly check for updates to our privacy policy, as we may revise it periodically. By continuing to use TidyTime, you acknowledge and agree to any changes made to this policy."
+            android:textSize="14sp"
+            android:textColor="#666"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
